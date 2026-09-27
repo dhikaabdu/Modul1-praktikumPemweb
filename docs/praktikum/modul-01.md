@@ -19,6 +19,14 @@ Riwayat commit diperiksa menggunakan perintah:
 git log --oneline --graph --allh 
 * 5494d9a (HEAD -> main) Dokumen Teknis Modul 1
 
+### 2.2 Pull Request
+
+Tautan Pull Request yang telah digabungkan:
+
+https://github.com/dhikaabdu/Modul1-praktikumPemweb/pull/1
+
+Pull Request dibuat dari branch `docs/modul-01` dan berhasil digabungkan ke branch `main`.
+
 ### 2.3 Konflik yang Terjadi, Penyelesaian, dan Alasan Pemilihan Isi Akhir
 
 Pada saat menjalankan `git add .`, folder `public` terdeteksi sebagai repository Git tersarang (embedded Git repository). Git memberikan peringatan bahwa repository di dalam folder `public` akan diperlakukan sebagai repository terpisah.
