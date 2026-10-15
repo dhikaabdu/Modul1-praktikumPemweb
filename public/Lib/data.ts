@@ -1,0 +1,53 @@
+
+type Item = {
+  id: number;
+  judul: string;
+  kategori: "energi" | "lingkungan" | "air" | "transportasi";
+  deskripsi: string;
+  tersedia: boolean;
+};
+
+export const daftarItem: Item[] = [
+  {
+    id: 1,
+    judul: "Panel surya atap",
+    kategori: "energi" as Item["kategori"],
+    deskripsi: "Pemantauan produksi listrik harian.",
+    tersedia: true,
+  },
+  {
+    id: 2,
+    judul: "Lampu LED hemat energi",
+    kategori: "energi",
+    deskripsi: "Penggunaan lampu hemat energi untuk mengurangi konsumsi listrik.",
+    tersedia: true,
+  },
+  {
+    id: 3,
+    judul: "Tempat sampah pintar",
+    kategori: "lingkungan",
+    deskripsi: "Pemantauan kapasitas tempat sampah untuk mendukung pengelolaan limbah.",
+    tersedia: true,
+  },
+  {
+    id: 4,
+    judul: "Sensor kualitas udara",
+    kategori: "lingkungan",
+    deskripsi: "Pemantauan kualitas udara dan tingkat polusi di lingkungan sekitar.",
+    tersedia: false,
+  },
+  {
+    id: 5,
+    judul: "Sistem pemantauan air",
+    kategori: "air",
+    deskripsi: "Pemantauan penggunaan air untuk membantu menghemat sumber daya.",
+    tersedia: true,
+  },
+  {
+    id: 6,
+    judul: "Pengisi daya kendaraan listrik",
+    kategori: "transportasi",
+    deskripsi: "Fasilitas pengisian daya untuk kendaraan listrik.",
+    tersedia: false,
+  },
+];
